@@ -1,0 +1,36 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+
+.first-part{
+    background-image: url(images/donation5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.first-part h1{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+
+    
+}
+.first-part p{
+    color: white;
+    text-align: center;
+}
+
+.first-part a{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 70px;
+    border-radius: 5px;
+    margin-left: 50%;
+    
+
+}
