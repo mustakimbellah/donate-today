@@ -84,6 +84,7 @@ body{
     text-align: center;
     padding-top: 40px;
     font-size: 40px;
+    color: red;
 }
 
 .box-3 {
@@ -151,4 +152,18 @@ body{
     border-radius: 5px;
     margin-left: 50%;
     
+}
+
+footer{
+    background-color: black;
+    height: 130px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.654);
+}
+.footer-humble{
+    color: orangered;
 }
