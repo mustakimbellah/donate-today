@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .first-part{
@@ -54,7 +55,7 @@ body{
     border-radius: 5px;
     text-align: center;
     font-size: 40px;
-    padding: 20px 40px;
+    padding: 10px 20px;
 }
 
 #box-color{
@@ -71,6 +72,7 @@ body{
    padding: 1%;
    border-top: none;
    border-left: none;
+   border-right: none;
 
 }
 
@@ -147,7 +149,15 @@ footer p{
     padding: 5%;
 }
 .donate-btn{
-    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 70px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    
 }
 .extra-part{
     display: flex;
@@ -157,9 +167,17 @@ footer p{
     align-items: center;
     margin-left: 80px;
 }
-.extra-part-div{
-    
-}
+
 .extra-part-img img{
-    width: 70%;
+    width: 95%;
+}
+
+.extra-part-div-an{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 70px;
+    border-radius: 5px;
+    
 }
