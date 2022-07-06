@@ -27,6 +27,9 @@ body{
     font-weight: 70px;
     border-radius: 5px;
 }
+.second-part{
+    text-align:center;
+}
 .second-part h1{
     text-align: center;
     color: black;
@@ -39,28 +42,35 @@ body{
 
 .box-part{
     display:flex;
-    text-align: center;
+    justify-content: center;
 
 }
 
 .box-common{
     height: 60px;
     width: 130px;
-    margin: 50px auto;
+    margin: 10px;
     background: rgba(174, 203, 237, 0.233);
     border-radius: 5px;
     text-align: center;
     font-size: 40px;
+    padding: 20px 40px;
 }
 
 #box-color{
     color: red;
     background-color: rgba(229, 160, 160, 0.532);
 }
+.input-amount{
+    text-align: center;
+}
 
 .other-amount-part{
-    text-align: center;
-
+   text-align: center;
+   width: 50%;
+   padding: 1%;
+   border-top: none;
+   border-left: none;
 
 }
 
@@ -75,6 +85,7 @@ body{
     margin-left: 50%;
     
 }
+
 
 footer{
     background-color: black;
@@ -124,3 +135,31 @@ footer p{
     background-color:lightblue ;
 }
 
+.fourth-part{
+    text-align: center;
+
+}
+.update-background{
+    
+    background-color: rgba(240, 131, 131, 0.316);
+    width: 50%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.donate-btn{
+    text-align: center;
+}
+.extra-part{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    margin-left: 80px;
+}
+.extra-part-div{
+    
+}
+.extra-part-img img{
+    width: 70%;
+}
